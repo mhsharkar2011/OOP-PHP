@@ -27,9 +27,12 @@ include "Person.php";
     // echo "<br>";
     // unset($objAge);
 
-    Person::setSex("Female","Red");
+    echo Person::setSex("Female ","Red");
+    echo "<br>";
     $obj = new Person();
-    $obj->getSex();
+    // $obj->setSex1("Other");
+    echo "<br>";
+    echo $obj->getSex();
     
 
     ?>

@@ -14,12 +14,12 @@ class Person{
     //     echo "My Contact Number " . self::$contact;      
     // }
 
-    // public function __construct()
-    // {   
-    //     $this->name;
-    //     $this->age;
-    //     $this->contact;
-    // }
+    public function __construct()
+    {   
+        $this->name;
+        $this->age;
+        $this->contact;
+    }
 
     public function setName($name)
     {
@@ -41,12 +41,12 @@ class Person{
 
     public function setSex1($sex)
     {
-        return self::$sex = $sex;
+        echo self::$sex = $sex;
     }
     public function getSex()
     {
-         self::$sex;
-         self::$color;
+         return self::$sex;
+         return self::$color;
     }
 
     public static function setSex($gender, $color){
